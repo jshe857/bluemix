@@ -1,0 +1,11 @@
+applications:
+- services:
+  - MongoLab-d5
+  disk_quota: 1024M
+  host: ibmhangouts
+  name: ibmhangouts
+  command: node app.js
+  path: .
+  domain: stage1.mybluemix.net
+  instances: 1
+  memory: 128M
