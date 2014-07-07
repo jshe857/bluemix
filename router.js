@@ -7,4 +7,5 @@ app.post('/register',user.register);
 app.post('/updateUser',user.update);
 app.post('/createEvent',event.create);
 app.post('/getUserEvent',event.getUserEvent);
+app.post('/updateEvent',event.update);
 module.exports = app;
