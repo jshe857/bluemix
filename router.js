@@ -8,7 +8,7 @@ app.post('/updateUser',user.update);
 
 //event model operations
 app.post('/createEvent',event.create);
-app.post('/getUserEvent',event.getUserEvent);
+app.post('/getEvents',event.getEvents);
 app.post('/updateEvent',event.update);
 app.post('/removeEvent',event.remove)
 module.exports = app;
